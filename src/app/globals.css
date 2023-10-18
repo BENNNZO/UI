@@ -1,7 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* --------------------------------- BUTTONS -------------------------------- */
+/* -------------------------------- BUTTON 01 ------------------------------- */
 .button-01 {
     background-size: 150% 150%;
     background-position: 100% 100%;
@@ -9,4 +10,16 @@
 
 .button-01:hover {
     background-position: 0% 0%;
+}
+
+/* -------------------------------- BUTTON 02 ------------------------------- */
+.button-02 {
+    background-image: linear-gradient(to bottom right, transparent 30%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0.1) 55%, transparent 70%);
+    background-size: 200% 200%;
+    background-position: 130% 130%;
+    background-repeat: no-repeat;
+}
+
+.button-02:hover {
+    background-position: -30% -30%;
 }
